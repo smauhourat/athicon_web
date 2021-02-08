@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<title>Athicon | Obras de Ingenieria</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Athicon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body id="body">
+
+		<script src="js/jquery.min.js"></script> 
+		<script type="text/javascript">
+		// jQuery example
+		$.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) { 
+
+			if (data.address.country_code == "US")
+					//window.location.replace("http://www.athicon.com/index_eng.html");
+					window.location.replace("http://localhost/index_eng.html");
+			else
+					//window.location.replace("http://www.athicon.com/index_es.html");
+					window.location.replace("http://localhost/index_es.html");
+
+		  //alert('Latitude: ' + data.latitude + 
+		  //      '\nLongitude: ' + data.longitude + 
+		  //      '\nCountry: ' + data.address.country_code); 
+
+		});
+		</script>
+
+    </body>
+</html>
