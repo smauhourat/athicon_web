@@ -12,21 +12,17 @@
 
 		<script src="js/jquery.min.js"></script> 
 		<script type="text/javascript">
+		window.location.replace("http://www.athicon.com/index_es.html");
 		// jQuery example
-		$.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) { 
+		// $.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) { 
 
-			if (data.address.country_code == "US")
-					window.location.replace("http://www.athicon.com/index_eng.html");
-					//window.location.replace("http://localhost/index_eng.html");
-			else
-					window.location.replace("http://www.athicon.com/index_es.html");
-					//window.location.replace("http://localhost/index_es.html");
-
-		  //alert('Latitude: ' + data.latitude + 
-		  //      '\nLongitude: ' + data.longitude + 
-		  //      '\nCountry: ' + data.address.country_code); 
-
-		});
+		// 	if (data.address.country_code == "US")
+		// 			window.location.replace("http://www.athicon.com/index_eng.html");
+		// 			//window.location.replace("http://localhost/index_eng.html");
+		// 	else
+		// 			window.location.replace("http://www.athicon.com/index_es.html");
+		// 			//window.location.replace("http://localhost/index_es.html");
+		// });
 		</script>
 
     </body>
