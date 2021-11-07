@@ -45,6 +45,10 @@
 		
 		// jQuery Owl Carousel
 		$(".partner-list").owlCarousel({
+			items:5,
+			loop:true,
+			autoplay:true,
+			autoplaySpeed: 100,
 			pagination : false,
 			navigation : true,
 			navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
