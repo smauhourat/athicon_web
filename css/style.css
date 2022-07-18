@@ -1217,7 +1217,11 @@ float:left;
 
 a, .navbar-default a.navbar-brand, .btn-bordered, .single-testimonial h2, .team-item h4, .company-name span, .owl-buttons div, .footer-copyright a{color:#86989d;}
 
-.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, #call-to-action, .parallax-overlay {background-color:#86989d}
+.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, #call-to-action, .parallax-overlay 
+{
+   /* background-color:#86989d */
+   background-color: #494a4a;
+}
 
 .btn-filled, .btn-bordered, .form-group input[type=text], .form-group input[type=email], .form-group textarea, .popular .plan-link,.popular .plan-features li, .popular .price-title, .popular .plan-features, .popular .plan-price, .single-partner img, .owl-buttons div {border-color:#86989d}
 
