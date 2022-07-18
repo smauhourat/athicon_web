@@ -43,7 +43,8 @@ color:#86989d;
 }
 body{
 font-family:'Open Sans', sans-serif;
-color:#86989d;
+/* color:#86989d; */
+color: #333636;
 line-height:23px;
 overflow-x:hidden;
 }
@@ -272,20 +273,22 @@ width:100%;
 /* -----------------------------------	*/
 
 #about{
-font-size:13px;
+   font-size:13px;
 }
 .page-title{
-color:#334852;
-font-family:open sans;
-font-size:28px;
-font-weight:300;
-letter-spacing:2px;
-line-height:35px;
-margin-bottom:20px;
-text-transform:uppercase;
+   /* color:#334852; */
+   color: #565858;
+   font-family: open sans;
+   font-size: 28px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   line-height: 35px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
 }
+
 #about .page-title{
-margin-top:60px;
+   margin-top:60px;
 }
 .btn-filled, .btn-bordered{
 /*border-radius*/
@@ -318,35 +321,42 @@ opacity:.7;
 /*       Items Home                     */
 /* ------------------------------------ */
 
-#items_home{
-background:#165000;
-opacity:1.6;
-position:absolute;
-left:0;
-top:0;
-width:100%;
-height:100%;
+.items_home{
+   /* background:#8b9188;
+   opacity: 1.2; */
+   /* position:absolute;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%; */
+   margin: 0 0 25px;
+   padding-left: 15px;
 }
+
 .items_home-item i{
-font-size:30px;
-color:#86989d;
-font-weight:50;
-left:0;
-position:absolute;
-top:-5px;
+   font-size:30px;
+   color:#565858;
+   font-weight:50;
+   left:0;
+   position:absolute;
+   top:-5px;
+   padding-left: 13px
 }
+
 .items_home-item h2{
-font-family:open sans;
-font-size:18px;
-color:#86989d;
-font-weight:400;
-margin:0 0 15px;
-padding-left:25px;
-text-transform:uppercase;
+   font-family: open sans;
+   font-size:18px;
+   color:#333636;
+   font-weight:400;
+   margin:0 0 15px;
+   padding-left: 40px;
+   text-transform:uppercase;
 }
+
 .items_home-item p{
-padding-left:-10px;  
+   padding-left:-10px;  
 }
+
 /* ------------------------------------	*/
 /*  		 4. Features page			*/
 /* -----------------------------------	*/
